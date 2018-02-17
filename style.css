@@ -1,0 +1,35 @@
+* {
+
+}
+
+html {
+    position:relative; 
+}
+
+section {
+    margin: 2%; 
+    padding: 1%; 
+}
+
+main {
+    border: 1px solid black;
+    padding: 0 0 2% 0; 
+    border-radius: 5px; 
+}
+
+#about_text {
+
+}
+
+aside {
+    margin: 1%; 
+}
+
+footer {
+    background-color: teal; 
+    /* position: absolute; 
+    bottom: 0;  */
+
+}
+
+
