@@ -1,4 +1,5 @@
 * {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 
 }
 
@@ -7,29 +8,86 @@ html {
 }
 
 section {
-    margin: 2%; 
-    padding: 1%; 
+    margin: 70px; 
+    padding: 5px;
 }
 
+.navbar-default .navbar-brand {
+    /* DOES NOT WORK */
+    color:white;
+    background-color: #4aaaa5;
+    margin: 0; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px; 
+    font-weight: bold; 
+}
+
+.navbar-default .navbar-brand:hover {
+    background-color: #4aaaa5;
+    color:white;
+}
+
+body {
+    background-image: url("images/cork-wallet.png");
+    color: #777777;
+}
 main {
-    border: 1px solid black;
-    padding: 0 0 2% 0; 
-    border-radius: 5px; 
+    border: 1px solid #777777;
+    padding: 0 0 10px 0; 
+    border-radius: 10px; 
+    background-color: #ffffff;
+}
+
+h2 {
+    color:#4aaaa5;
 }
 
 #about_text {
 
 }
 
-aside {
-    margin: 1%; 
+.img-thumbnail {
+    margin: 0 0 10px 0; 
+    height: 240px;
+    width: 200px;
+    display: block; 
+    margin: 0 auto; 
 }
 
-footer {
-    background-color: teal; 
+aside {
+    margin: 20px; 
+    width: 300px; 
+}
+
+.panel {
+    border: 1px solid #777777;
+    border-radius: 5px; 
+    background-color: #ffffff;
+}
+
+
+.panel-title {
+    font-size: 30px;
+    color:#4aaaa5;
+}
+#footer {
+    background-color: #666666;
     /* position: absolute; 
     bottom: 0;  */
+    color: white; 
+    opacity: .8; 
+    padding: 8px 0 2px 0;
+    border-style: solid hidden hidden hidden; 
+    border-color: #4aaaa5;
+    border-width: 5px;  
+    text-align: center; 
+}
 
+.connect_img {
+    height: 50px;
+    width: 50px;
+    margin: 10px; 
+    border-radius: 5px; 
 }
 
 
