@@ -8,7 +8,7 @@ html {
 }
 
 section {
-    margin: 70px; 
+    margin: 70px auto; 
     padding: 5px;
 }
 
@@ -63,7 +63,7 @@ ul li:hover {
 
 /* SIDEBAR PANEL */
 aside {
-    margin: 10px auto; 
+    margin: 10px 0; 
     width: 380px; 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 30px; 
